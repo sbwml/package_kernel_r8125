@@ -21,7 +21,7 @@ index 4949577..908027d 100644
  	BASEDIR := /lib/modules/$(shell uname -r)
  	KERNELDIR ?= $(BASEDIR)/build
 diff --git a/r8125_n.c b/r8125_n.c
-index fe7c2c6..f565bd8 100644
+index e1e97db..37ed2f3 100644
 --- a/r8125_n.c
 +++ b/r8125_n.c
 @@ -5378,6 +5378,7 @@ static void rtl8125_gset_xmii(struct net_device *dev,
